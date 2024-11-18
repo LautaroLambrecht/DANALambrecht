@@ -1,0 +1,35 @@
+mkdir dana
+
+cd dana
+
+mkdir alfafar
+mkdir massanassa
+mkdir catarroja
+mkdir paiporta
+
+cd catarroja
+touch enero
+touch febrero
+touch marzo
+
+cd ..
+cp catarroja/enero.txt alfafar/enero.txt
+
+cp catarroja/* paiporta
+
+rm -i paiporta/*ro.txt
+rm -i paiporta/*ro
+
+mv catarroja/enero.txt massanassa/enero.txt
+
+git fetch
+git merge origin/main
+
+cd massanassaç
+mv enero.txt abril.txt
+
+cp "massanassa/abril.txt" "hola.txt"
+
+cd paiporta
+
+rm -r ../massanassa
